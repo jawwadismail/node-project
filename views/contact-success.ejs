@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+            <link href="/assets/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <% include partials/nav.ejs %> 
+        <h1>Succesfully connected with post</h1> 
+        <p>You contacted <%= qs.who %></p>
+        <p>His department is <%= qs.dept %></p>
+        <p>His email is <%= qs.email %></p>
+    </body>
+</html>
